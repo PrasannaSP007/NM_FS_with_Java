@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <form id="form">
+        <h2 align="center">Forms</h2>
+        <div>
+            <label>Name :</label>
+            <input required class="form-control" type="text">
+        </div>
+        <div>
+            <label>Register Number :</label>
+            <input required class="form-control" type="number">
+        </div>
+        <div>
+            <label>Country :</label>
+            <input required class="form-control" type="text">
+        </div>
+        <div>
+            <label>Mobile Number :</label>
+            <input required class="form-control" type="number">
+        </div>
+        <div>
+            <label>Email :</label>
+            <input required class="form-control" type="email">
+        </div>
+        <br>
+        <div style="display:flex; justify-content:center;">
+            <input class="btn btn-outline-success" type="submit" id="btn" value="Submit">
+        </div>
+    </form>
+    <script src="script.js"></script>
+    <style>
+        body {
+            padding: 2vh 2vw;
+            background-color: aliceblue; 
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+        }
+
+        #form {
+            box-shadow: 2px 4px 6px 8px rgba(0,0,0,0.2);
+            padding: 16px;
+            width: 36%;
+            min-width: 270px;
+            border-radius: 7px;
+            background-color: rgb(185, 22, 22);
+        } 
+    </style>
+</body>
+</html>

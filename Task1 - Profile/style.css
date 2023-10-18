@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+    color: white;
+    padding: 2vh 2vw;
+    background-image: linear-gradient(35deg, seagreen 0%, #008e7d 100%);
+}
+
+body div {
+    margin: 3vh;
+    font-size: 20px;
+}
+
+th, td {
+    font-size: 19px;
+    padding: 5px;
+    width: 33vw;
+}
+
+.s {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.s div {
+    display: flex;
+    flex-direction: column;
+}
+
+ ul li  {
+    padding: 3px;
+ }
